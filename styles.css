@@ -1,0 +1,59 @@
+/* boilerplate css */
+body{
+    font-size: 16px;
+    margin: 0;
+
+}
+
+main{
+    height: 100vh;
+   display: flex;
+   justify-content: space-evenly; 
+   align-items: center;
+   /* padding: 10% 0 0 0; */
+   text-align: center;
+   background-color: #1B244A;
+}
+
+
+.home, .Guest{
+    width: 20%;
+}
+
+
+h3{ 
+    margin-top: 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+}
+.scoreCard{
+    height: 45%;
+    background-color: #080001;
+    margin-bottom: 1rem;
+    font-family: 'Orbitron', sans-serif;
+    color: #F94F6D;
+    font-size: 5rem;
+}
+
+.scoreButtons{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+button{
+    padding: 1rem;
+    background-color:#1B244A;
+    color:#9AABD8;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid #9AABD8;
+    border-radius: 3px;
+}
+
+button:hover{
+    color: #F94F6D;
+    border:2px solid #F94F6D;
+}
